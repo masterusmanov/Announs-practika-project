@@ -94,5 +94,21 @@
         "tavsif": "Frontend va Backend",
         "yozish": "kiber xavfsizlik bo'yicha master klass",
         "img": "https___xs.uz_upload_post_2019_16_a6416fb891b19cb61681e0e9db0c89451216.avif"
+    },
+    {
+        "id": 4,
+        "sana": "2023-02-14",
+        "vaqt": "15:00",
+        "yunalish": "Web dasturlash",
+        "ichki": "Full stack(NodeJS + VUE JS)",
+        "turi": "Offline",
+        "link": "https://nodejs.org/en/",
+        "imya": "Usmanov Elyor",
+        "kasb": "Full stack (NodeJs + VueJs)",
+        "tel": "+998972179900",
+        "tel1": "+998950119900",
+        "tavsif": "Frontend va Backend",
+        "yozish": "Full stack bo'yicha master klass",
+        "img": "man.png"
     }
 ]

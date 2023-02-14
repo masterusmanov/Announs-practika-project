@@ -41,7 +41,7 @@ fetch('http://localhost:7000/read_offline_unnoun', {
                 p.style.paddingBottom = '30px';
                 p.addEventListener('click', () =>{
                     localStorage.setItem('announ_id', annmain.id)
-                window.location.href = '../html/main_page.html'
+                    window.location.href = '../html/main_page.html'
                 })
                             
                 i1.className += 'fa fa-user';

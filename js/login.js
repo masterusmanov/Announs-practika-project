@@ -14,6 +14,7 @@ function showPsw(){
 
 form.addEventListener('submit', (event) => {
     event.preventDefault();
+    
     if(login.value == ''){
         xato.innerHTML = "* Maydonni kiritmadingiz!";
     }else if(password.value == ''){
@@ -25,9 +26,9 @@ form.addEventListener('submit', (event) => {
     let psw = atob(users.password)
 
     if(login.value == 'adminProject' && password.value == 'projectAdmin'){
-        location.href = '../html/admin_access.html'
+        window.location.href = '../html/admin_access.html'
     }else if(login.value == lgn && password.value == psw){
-        location.href = '../html/admin_access.html'
+        window.location.href = '../html/admin_access.html'
     }else{
         err.innerHTML = 'Maxsus kalit so\'zlarda xatolik'
     }
